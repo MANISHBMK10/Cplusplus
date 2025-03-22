@@ -51,7 +51,7 @@ bool check_bitonic(const vector<int> &vec, int n){
     return false;
     
 }
-int main(){
+int main4(){
 int n;
 cout << "Enter the no. of elements" << endl;
 cin >> n;
