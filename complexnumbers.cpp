@@ -46,9 +46,9 @@ int main7(){
     string z1, z2;
     char op;
     int a, b, c, d;
-    cout << " Enter first Complex Number:" << endl;
+    cout << " Enter first Complex Number:(a+ib)" << endl;  
     cin >> z1;
-    cout << " Enter second Complex Number:" << endl;
+    cout << " Enter second Complex Number:(c+id)" << endl;
     cin>> z2;
     sscanf(z1.c_str(),"%d+i%d" , &numbers.a, &numbers.b);
     sscanf(z2.c_str(),"%d+i%d" , &numbers.c, &numbers.d);
