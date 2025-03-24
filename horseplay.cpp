@@ -24,7 +24,7 @@ for (int i=0; i<8; i++){
         }
 return moves;
 }
-int main(){
+int main5(){
     string horse;
     cout << "Enter horse position:" << endl;
     cin >> horse;
