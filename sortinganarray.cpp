@@ -2,7 +2,7 @@
 #include<algorithm>
 
 using namespace std;
-
+//sorting
 void swap(int& a, int& b){
     int c = a;
     a = b;

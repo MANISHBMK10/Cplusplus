@@ -2,7 +2,7 @@
 #include<algorithm>
 
 using namespace std;
-
+// Prints fizz, buzz or fizzbuzz according to the integer if it's multiple to 3,5 and 15 respectively
 int main3(){
 int n;
 cout << "Enter a positive integer" << endl;

@@ -4,7 +4,7 @@
 #include<string>
 
 using namespace std;
-
+//checks and shows all possible moves of a horse in a chess board.
 vector<string> possible_moves(string horse){
  vector<string> moves;  
 int x,y;

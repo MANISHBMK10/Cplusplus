@@ -3,7 +3,7 @@
 #include<algorithm>
 
 using namespace std;
-
+//checks if the list is bitonic or not
 bool check_bitonic(const vector<int> &vec, int n){
     int i = 0;
     bool increasing = false;

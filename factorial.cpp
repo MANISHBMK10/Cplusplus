@@ -2,7 +2,7 @@
 #include<algorithm>
 
 using namespace std;
-
+// factorial 
 int factorial(int i, int n, int result){
     if(i > n) return result;
     result = result * i;

@@ -4,7 +4,7 @@
 #include<vector>
 
 using namespace std;
-
+// checks if people are related!
 void first_last(vector<string> names){
 int count = 0;
 vector<string> Firstname, Lastname;
@@ -47,7 +47,7 @@ first_last(names);
 
 
 
-int main(){
+int main12(){
     string line;
     ifstream inFile("names.csv");
     

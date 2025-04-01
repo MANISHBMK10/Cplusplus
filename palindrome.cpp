@@ -3,7 +3,7 @@
  
 using namespace std;
 
-
+//palindrome: checks if the string is same from both ends.
 bool palindrome(string k){
     string rev =k ;
     reverse(rev.begin(),rev.end());
