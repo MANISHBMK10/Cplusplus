@@ -36,7 +36,7 @@ int vowel_count(const string str){
 
 // Faulty code, main()
 // Summary: This application ask the user for a string, and prints the number of vowels in it.
-int main(){
+int main9(){
     string input; 
     cout << "Enter some text: " << flush;
     getline(cin, input);
