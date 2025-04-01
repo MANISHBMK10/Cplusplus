@@ -117,12 +117,12 @@ void display_board(char array[3][3]){
 }
 
 
-int main(){
+int main11(){
 char array[3][3] = { {' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} };
 int x;
 display_board(array);
 while(true) {
-cout << "Enter the number(1-9):";
+cout << "Enter the number(1-9):" << endl << "------"<< endl << "|1|2|3|"<< endl << "------"<< endl <<"|4|5|6|"<< endl << "------"<< endl << "|7|8|9|" << endl;
 cin >> x;
 player_move(x, array);
 display_board(array);
